@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { X, ArrowRight, CheckCircle } from 'lucide-react';
 import { supabase } from '/src/lib/supabase';
 import { sendEmail } from '../lib/sendgrid';
-import ThankYouPage from './ThankYouPage';
+import ThankYouPage from './ThankYouPage_04Feb';
 
 interface PreOrderModalProps {
   isOpen: boolean;
