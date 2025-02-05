@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your CSS file or <style> tag */
+@keyframes custom-bounce {
+  0%, 100% { /* Start and end positions */
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1); /* Adjust timing */
+  }
+  25% { /* First bounce */
+    transform: translateY(-16px); /* Adjust height */
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1); /* Adjust timing */
+  }
+    50% { /* Second bounce */
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1); /* Adjust timing */
+  }
+    75% { /* Third bounce */
+    transform: translateY(-8px); /* Adjust height */
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1); /* Adjust timing */
+  }
+}
+
+
+.animate-custom-bounce {
+  animation: custom-bounce 6s; /* Adjust duration */
+}
