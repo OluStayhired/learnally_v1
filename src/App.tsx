@@ -6,7 +6,7 @@ import AnimatedSvg from './components/AnimatedSvg';
 import mainHeroImage from './images/main_hero_draft01.png';
 import mainHeroVideo from './images/learnally_main_video_large.mp4'
 import mainHeroCover from './images/learnally_main_cover.png'
-import caseStudyVideo from './images/video_klaowt_website.mp4';
+import caseStudyVideo from './images/video_of_klaowt_large.mp4';
 import dbBank from './images/db-logo.svg';
 import barclaysBank from './images/barclays-logo.svg'
 import citiBank from './images/citigroup-logo.svg'
